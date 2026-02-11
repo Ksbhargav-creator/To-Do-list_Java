@@ -39,13 +39,29 @@ TodoGUI/
 
 We are using Swing components to build the interface:
 
-- JFrame – The main application window  
-- JPanel – Containers to organize components within the window  
-- JTextField / JTextArea – For entering or editing task descriptions  
-- JButton – For actions like "Add Task", "Delete", or "Save"  
-- JList or JTable – To display the list of tasks  
-- JCheckBox – To mark a task as complete  
+- **JFrame** – Serves as the main application window  
+- **JPanel** – Organizes and groups related UI components  
+- **JTextField / JTextArea** – Allows users to enter or edit task descriptions  
+- **JButton** – Triggers actions such as adding, deleting, or updating tasks  
+- **JList (or JTable)** – Displays the list of tasks  
+- **JCheckBox** – Allows users to mark tasks as completed  
+- **JLabel** – Displays text labels and instructions within the interface  
 
+---
+
+## Layout Management
+
+Layout managers are used to control how components are arranged within the GUI.  
+In this project, layout managers ensure that the interface remains structured and organized.
+
+Common layout managers that can be used in this application include:
+
+- **BorderLayout** – Divides the window into regions (North, South, East, West, Center)  
+- **FlowLayout** – Arranges components in a left-to-right flow  
+- **GridLayout** – Organizes components in a grid of rows and columns  
+- **GridBagLayout** – Provides flexible and advanced grid-based positioning  
+
+These layout managers help maintain a clean, responsive interface while keeping the code modular and readable.
 
 ---
 
